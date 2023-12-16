@@ -17,10 +17,8 @@ function searchManga(event) {
                     let imgname = coverart.attributes.fileName;
                     let mangaImage = `<img src="https://uploads.mangadex.org/covers/${mangainfo.id}/${imgname}" alt="No Image"/>`;
 
-                    
-                    
                     const displayTitle = mangainfo.attributes.title.en;
-                    const displayDescription = mangainfo.attributes.description.en
+                    const displayDescription = mangainfo.attributes.description.en || 'No Description';
                     const mangadiv = `
                         <div class="manga-entry">
                             <h1>${displayTitle}</h1>

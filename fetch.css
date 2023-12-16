@@ -40,10 +40,12 @@ p {
     justify-content: space-evenly;
     background-color: black;
     color: white;
-    border: 0px;
-    border-top: 2px;
+    border: 2px;
     border-color: gray;
     border-style: solid;
+    padding: 10px;
+    margin-left: -8px;
+    margin-right: -10px;
 }
 
 .nav-list-name {
@@ -52,6 +54,9 @@ p {
     text-decoration: none;
     font-family: 'League Spartan', sans-serif;
     font-family: 'Lobster', sans-serif;
+    border: 1px;
+    border-style: solid;
+    padding: 3px;
 }
 
 .listcolor2 {
@@ -94,6 +99,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 5%;
 }
 
 .manga-entry img {
